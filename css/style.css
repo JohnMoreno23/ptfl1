@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.branco {
+    color: white;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    font-family: "Lato", sans-serif;
+}
+
+.parent {
+    display: flex;
+}
+
+.sidebar {
+    width: 30%;
+    height: 100%;
+    position: fixed;
+    background-color: #122079;
+}
+
+.sidebar-pos {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.img-sidebar {
+    text-align: center;
+}
+
+.img-sidebar img {
+    width: 60%;
+    max-width: 100%;
+    border: 8px solid #3242ac;
+    border-radius: 50%;
+
+}
+
+.menu {
+    margin: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+.menu a {
+    color: white;
+    opacity: 0.4;
+    font-size: 19px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.menu a.selected {
+    opacity: 1;
+}
+
+.content {
+    position: absolute;
+    left: 30%;
+    width: 70%;
+    height: 100%;
+    background-color: #cad0fc;
+    overflow-y: auto;
+    padding: 0 3%;
+}
+
+section.descricao {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+section.descricao h2 {
+    color: #0c165c;
+    font-size: 2em;
+}
+
+section.descricao h2>span {
+    color: #62699e;
+}
+
+section.descricao h3 {
+    margin: 2% 0;
+    color: #3141a5;
+}
+
+section.descricao h3>span {
+    color: #62699e;
+}
+
+section.descricao p {
+    color: darkslateblue;
+    margin-top: 4%;
+    font-size: 1.2em;
+}
+
+.icons-social {
+    margin-top: 2%;
+}
+
+.icons-social a {
+    color: #122079;
+    font-size: 2em;
+    margin: 0 10px;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.icons-social i{
+    line-height: 40px;
+}
