@@ -119,6 +119,18 @@ section.descricao p {
     text-align: center;
 }
 
-.icons-social i{
+.icons-social i {
     line-height: 40px;
+}
+
+@media (max-width: 768px) {
+
+    .descricao p {
+        font-size: 0.5em;
+        line-height: 1.2em;
+    }
+
+    .icons-social {
+        margin-top: 6%;
+    }
 }
